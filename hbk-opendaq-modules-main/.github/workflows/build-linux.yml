@@ -1,0 +1,57 @@
+name: Linux
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+
+  build:
+
+    name: Build
+
+    runs-on:
+      group: fusion-devops-k8s
+
+    steps:
+
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build project (release)
+        id: build-release
+        uses: threeal/cmake-action@v2.1.0
+        with:
+          options: |
+            CMAKE_BUILD_TYPE=Release
+            CMAKE_INSTALL_PREFIX=/
+
+      - name: Stage install (release)
+        run: DESTDIR=stage-release cmake --install ${{ steps.build-release.outputs.build-dir }}
+
+      - name: Upload artifacts (release)
+        uses: actions/upload-artifact@v4
+        with:
+          name: modules-release
+          path: stage-release/*
+
+      - name: Build project (debug)
+        id: build-debug
+        uses: threeal/cmake-action@v2.1.0
+        with:
+          options: |
+            CMAKE_BUILD_TYPE=Debug
+            CMAKE_INSTALL_PREFIX=/
+
+      - name: Stage install (debug)
+        run: DESTDIR=stage-debug cmake --install ${{ steps.build-debug.outputs.build-dir }}
+
+      - name: Upload artifacts (debug)
+        uses: actions/upload-artifact@v4
+        with:
+          name: modules-debug
+          path: stage-debug/*
+
+      - name: Run tests
+        uses: threeal/ctest-action@v1.1.0

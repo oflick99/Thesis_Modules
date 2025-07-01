@@ -1,0 +1,63 @@
+name: Windows
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+
+  build:
+
+    name: Build
+
+    runs-on:
+      group: fusion-devops-windows
+
+    steps:
+
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build project (release)
+        id: build-release
+        uses: threeal/cmake-action@v2.1.0
+        with:
+          options: |
+            CMAKE_INSTALL_PREFIX=C:/
+          build-args: --config Release
+
+      - name: Stage install (release)
+        env:
+          DESTDIR: stage-release
+        run: cmake --install ${{ steps.build-release.outputs.build-dir }} --config Release
+
+      - name: Upload artifacts (release)
+        uses: actions/upload-artifact@v4
+        with:
+          name: modules-release
+          path: stage-release/*
+
+      - name: Build project (debug)
+        id: build-debug
+        uses: threeal/cmake-action@v2.1.0
+        with:
+          options: |
+            CMAKE_INSTALL_PREFIX=C:/
+          build-args: --config Debug
+
+      - name: Stage install (debug)
+        env:
+          DESTDIR: stage-debug
+        run: cmake --install ${{ steps.build-debug.outputs.build-dir }} --config Debug
+
+      - name: Upload artifacts (debug)
+        uses: actions/upload-artifact@v4
+        with:
+          name: modules-debug
+          path: stage-debug/*
+
+      - name: Run tests
+        uses: threeal/ctest-action@v1.1.0
+        with:
+          build-config: Debug

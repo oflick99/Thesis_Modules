@@ -1,0 +1,64 @@
+Descriptor
+    Dimensions* : Dimension
+        Labels* : BaseObject
+        Name : String
+        Rule : DimensionRule
+            Parameters* : <String, BaseObject>
+            Type : DimensionRuleType (Other, Linear, Logarithmic, List)
+        Size : SizeT
+        Unit : Unit
+            Id : Int
+            Name : String
+            Quantity : String
+            Symbol : String
+    Metadata* : <String, String>
+    Name : String
+    Origin : String
+    PostScaling : Scaling
+        InputSampleType : SampleType
+        OutputSampleType : SampleType
+        Parameters* : <String, BaseObject>
+        Type : ScalingType (Other, Linear)
+    RawSampleSize : SizeT
+    ReferenceDomainInfo : ReferenceDomainInfo
+        ReferenceDomainId : String
+        ReferenceDomainOffset : Int
+        ReferenceTimeSource : TimeSource (Unknown, Tai, Gps, Utc)
+        UsesOffset : UsesOffset (Unknown, True, False)
+    Rule : DataRule
+        Parameters* : <String, BaseObject>
+        Type : DataRuleType (Other, Linear, Constant, Explicit)
+    SampleSize : SizeT
+    SampleType : SampleType
+    StructFields* : DataDescriptor
+    TickResolution : Ratio
+        Denominator
+        Numerator
+    Unit : Unit
+        Id : Int
+        Name : String
+        Quantity : String
+        Symbol : String
+    ValueRange : Range
+        HighValue : Number
+        LowValue : Number
+
+SampleType
+    Invalid/Undefined
+    Float32
+    Float64
+    UInt8
+    Int8
+    UInt16
+    Int16
+    UInt32
+    Int32
+    UInt64
+    Int64
+    RangeInt64
+    ComplexFloat32
+    ComplexFloat64
+    Binary
+    String
+    Struct
+    Null

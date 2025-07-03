@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\oflick\HBK\Team DAQ - Oliver-Flick\241106_Bachelor\Bachelor_Arbeit\Workspace\build\_deps\boost-src\libs\variant2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\oflick\HBK\Team DAQ - Oliver-Flick\241106_Bachelor\Bachelor_Arbeit\Workspace\build\_deps\boost-src\libs\variant2\extra\boost_variant2.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\oflick\HBK\Team DAQ - Oliver-Flick\241106_Bachelor\Bachelor_Arbeit\Workspace\build\_deps\boost-src\libs\variant2\include\boost\variant2.hpp">
+      <Filter>Header Files\boost</Filter>
+    </None>
+    <None Include="C:\Users\oflick\HBK\Team DAQ - Oliver-Flick\241106_Bachelor\Bachelor_Arbeit\Workspace\build\_deps\boost-src\libs\variant2\include\boost\variant2\variant.hpp">
+      <Filter>Header Files\boost\variant2</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{41284FB7-5837-3646-AF8A-6CFF6443E22C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boost">
+      <UniqueIdentifier>{323662D7-68B1-32BB-952E-1D6C1BEF86A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boost\variant2">
+      <UniqueIdentifier>{008472FB-EE70-3DB1-BEB0-15589CBD909A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

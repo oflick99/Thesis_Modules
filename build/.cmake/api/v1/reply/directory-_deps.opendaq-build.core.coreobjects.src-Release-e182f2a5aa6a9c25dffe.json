@@ -1,0 +1,170 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 377,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "openDAQ_coreobjects_Development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/Release/daqcoreobjects-64-3.lib"
+			],
+			"targetId" : "daqcoreobjects::@643f86425c6589484ba5",
+			"targetIndex" : 117,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "openDAQ_coreobjects_Runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/Release/daqcoreobjects-64-3.dll"
+			],
+			"targetId" : "daqcoreobjects::@643f86425c6589484ba5",
+			"targetIndex" : 117,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "openDAQ_coreobjects_Development",
+			"destination" : "include/coreobjects",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/coreobjects.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/object_keys.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/version.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/serialization_utils.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/eval_value_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/property_value.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/property_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/property_ptr.fwd_declare.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/property_impl.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/property_value_event_args_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/end_update_event_args_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/property_object_impl.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/property_object_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/property_object_class_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/property_object_class_impl.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/property_object_ptr.custom.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/owning_list_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/owning_dict_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/callable_info_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/argument_info_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/validator.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/validator_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/coercer.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/coercer_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/util.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/exceptions.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/errors.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/unit_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/core_event_args_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/core_event_args_ids.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/core_event_args_impl.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/user.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/user_internal.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/user_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/authentication_provider.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/authentication_provider_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/permission_manager.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/permission_manager_internal.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/permission_manager_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/permissions.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/permissions_builder.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/permissions_builder_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/permission_mask_builder.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/permission_mask_builder_factory.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include/coreobjects/object_lock_guard.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/coreobjects_config.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/property_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/property.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/property_internal_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/property_internal.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/property_builder_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/property_builder.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/property_object_protected_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/property_object_protected.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/property_object_class_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/property_object_class.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/property_object_class_builder_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/property_object_class_builder.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/property_object_internal_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/property_object_internal.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/property_object_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/property_object.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/ownable_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/ownable.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/eval_value_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/eval_value.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/property_value_event_args_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/property_value_event_args.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/end_update_event_args_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/end_update_event_args.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/callable_info_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/callable_info.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/argument_info_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/argument_info.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/validator_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/validator.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/coercer_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/coercer.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/unit_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/unit.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/unit_builder_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/unit_builder.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/core_event_args_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/core_event_args.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/user_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/user.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/user_internal_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/user_internal.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/authentication_provider_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/authentication_provider.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/permission_manager_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/permission_manager.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/permission_manager_internal_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/permission_manager_internal.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/permissions_builder_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/permissions_builder.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/permission_mask_builder_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/permission_mask_builder.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/permissions_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/permissions.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects/object_lock_guard_ptr.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/include/coreobjects/object_lock_guard.h",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/coreobjects.natvis"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/opendaq-build/core/coreobjects/src",
+		"source" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src"
+	}
+}

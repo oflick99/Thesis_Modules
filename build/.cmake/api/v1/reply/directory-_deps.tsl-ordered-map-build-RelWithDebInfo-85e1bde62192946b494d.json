@@ -1,0 +1,115 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/__external/src/tsl-ordered-map/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "External",
+			"destination" : "include",
+			"paths" : 
+			[
+				"build/__external/src/tsl-ordered-map/include/tsl"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "External",
+			"destination" : "share",
+			"paths" : 
+			[
+				"build/__external/src/tsl-ordered-map/tsl-ordered-map.natvis"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "External",
+			"destination" : "share/cmake/tsl-ordered-map",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/tsl-ordered-map-build/tsl-ordered-mapConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "External",
+			"destination" : "share/cmake/tsl-ordered-map",
+			"exportName" : "tsl-ordered-mapTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ordered_map::@e4bfc6e339db2a7dbc16",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/tsl-ordered-map-build/CMakeFiles/Export/f68a8d006f004d5820383bc6b3e97638/tsl-ordered-mapTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "External",
+			"destination" : "share/cmake/tsl-ordered-map",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/tsl-ordered-map-build/tsl-ordered-mapConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/tsl-ordered-map-build",
+		"source" : "build/__external/src/tsl-ordered-map"
+	}
+}

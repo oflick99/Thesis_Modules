@@ -1,3 +1,11 @@
 {
-    "C_Cpp.default.compilerPath": "cl.exe"
+    "C_Cpp.default.compilerPath": "cl.exe",
+    "cmake.sourceDirectory": "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main"
+
+ /*   
+"cmake.generator": "Ninja",
+"cmake.configureSettings": {
+ "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+}
+*/
 }

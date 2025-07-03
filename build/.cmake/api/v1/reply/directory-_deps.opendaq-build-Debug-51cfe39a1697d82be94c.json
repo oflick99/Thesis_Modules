@@ -1,0 +1,215 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"C:/Program Files/CMake/share/cmake-4.1/Modules/InstallRequiredSystemLibraries.cmake",
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 605,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 795,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 740,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 745,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 750,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 755,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 760,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 765,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 770,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "External",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT/msvcp140.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT/msvcp140_1.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT/msvcp140_2.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT/msvcp140_atomic_wait.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT/msvcp140_codecvt_ids.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT/vcruntime140_1.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT/vcruntime140.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT/concrt140.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/Debug_NonRedist/x64/Microsoft.VC143.DebugCRT/msvcp140d.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/Debug_NonRedist/x64/Microsoft.VC143.DebugCRT/msvcp140_1d.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/Debug_NonRedist/x64/Microsoft.VC143.DebugCRT/msvcp140_2d.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/Debug_NonRedist/x64/Microsoft.VC143.DebugCRT/msvcp140d_atomic_wait.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/Debug_NonRedist/x64/Microsoft.VC143.DebugCRT/msvcp140d_codecvt_ids.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/Debug_NonRedist/x64/Microsoft.VC143.DebugCRT/vcruntime140_1d.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/Debug_NonRedist/x64/Microsoft.VC143.DebugCRT/vcruntime140d.dll",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC/14.44.35112/Debug_NonRedist/x64/Microsoft.VC143.DebugCRT/concrt140d.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "openDAQ_Development",
+			"destination" : "lib/cmake/opendaq",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/openDAQConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "openDAQ_Development",
+			"destination" : "lib/cmake/opendaq",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/openDAQConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "openDAQ_Development",
+			"destination" : "share/cmake",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/cmake/openDAQUtils.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "openDAQ_Development",
+			"destination" : "share/cmake",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/cmake/DaqUtils.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "openDAQ_Development",
+			"destination" : "share/cmake",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/cmake/DaqInternal.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "openDAQ_Development",
+			"destination" : "share/cmake/version",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/cmake/version/version.h.in",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/cmake/version/version.rc.in"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "openDAQ_Development",
+			"destination" : "lib/cmake/opendaq",
+			"exportName" : "openDAQ",
+			"exportTargets" : 
+			[
+				{
+					"id" : "xxhash::@fb85592994b02f054fdd",
+					"index" : 139
+				},
+				{
+					"id" : "bcrypt::@f339d9952def245ddb12",
+					"index" : 100
+				},
+				{
+					"id" : "daqcoretypes::@b3dce13f770454be9c34",
+					"index" : 118
+				},
+				{
+					"id" : "daqcoreobjects::@643f86425c6589484ba5",
+					"index" : 117
+				},
+				{
+					"id" : "opendaq::@39a0dc6e5e9697dfc1de",
+					"index" : 126
+				},
+				{
+					"id" : "opendaq_dev::@39a0dc6e5e9697dfc1de",
+					"index" : 127
+				},
+				{
+					"id" : "ref_device_module::@70d43c95d0c10e3fbe09",
+					"index" : 132
+				}
+			],
+			"paths" : 
+			[
+				"_deps/opendaq-build/CMakeFiles/Export/23cbb3e074046ee16d6619f8da62dae0/openDAQ.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/opendaq-build",
+		"source" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src"
+	}
+}

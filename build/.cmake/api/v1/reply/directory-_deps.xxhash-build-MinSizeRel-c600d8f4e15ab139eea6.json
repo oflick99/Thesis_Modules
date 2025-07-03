@@ -1,0 +1,134 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/__external/src/xxHash/cmake_unofficial/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 156,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "External",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/MinSizeRel/xxhash.lib"
+			],
+			"targetId" : "xxhash::@fb85592994b02f054fdd",
+			"targetIndex" : 139,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "External",
+			"destination" : "include",
+			"paths" : 
+			[
+				"build/__external/src/xxHash/cmake_unofficial/../xxhash.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "External",
+			"destination" : "include",
+			"paths" : 
+			[
+				"build/__external/src/xxHash/cmake_unofficial/../xxh3.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "External",
+			"destination" : "lib/cmake/xxHash",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/xxhash-build/xxHashConfig.cmake",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/xxhash-build/xxHashConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "External",
+			"destination" : "lib/cmake/xxHash",
+			"exportName" : "xxHashTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "xxhash::@fb85592994b02f054fdd",
+					"index" : 139
+				}
+			],
+			"paths" : 
+			[
+				"_deps/xxhash-build/CMakeFiles/Export/2f3e34e7a110e9f7b7e6158e00e3ec46/xxHashTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "External",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/libxxhash.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/xxhash-build",
+		"source" : "build/__external/src/xxHash/cmake_unofficial"
+	}
+}

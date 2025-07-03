@@ -1,0 +1,88 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "gtest_main::@11ce2936600882345026"
+		},
+		{
+			"id" : "gtest::@11ce2936600882345026"
+		},
+		{
+			"id" : "gmock::@95dbcf5448046478eda4"
+		},
+		{
+			"id" : "gmock_main::@95dbcf5448046478eda4"
+		},
+		{
+			"id" : "bcrypt::@f339d9952def245ddb12"
+		},
+		{
+			"id" : "xxhash::@fb85592994b02f054fdd"
+		},
+		{
+			"id" : "daqcoretypes::@b3dce13f770454be9c34"
+		},
+		{
+			"id" : "fmt::@976f4f0bee90b99ecdb6"
+		},
+		{
+			"id" : "daqcoreobjects::@643f86425c6589484ba5"
+		},
+		{
+			"id" : "opendaq::@39a0dc6e5e9697dfc1de"
+		},
+		{
+			"id" : "opendaq_dev::@39a0dc6e5e9697dfc1de"
+		},
+		{
+			"id" : "ref_device_module::@70d43c95d0c10e3fbe09"
+		},
+		{
+			"id" : "discovery_server::@16cba926768d7c8b46b2"
+		},
+		{
+			"id" : "test_utils::@89bc5dfb72c54ce83bea"
+		},
+		{
+			"id" : "opendaq_discovery_common::@7664192d97661602afdf"
+		},
+		{
+			"id" : "opendaq_discovery::@3a832a8ab5f5bef39469"
+		},
+		{
+			"id" : "signal_generator::@9a39096da75b88d88e7c"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@743090eda9ffa5a21b84",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "_deps/opendaq-build",
+		"source" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

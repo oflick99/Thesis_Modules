@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/external/bcrypt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "External",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/Release/bcrypt.lib"
+			],
+			"targetId" : "bcrypt::@f339d9952def245ddb12",
+			"targetIndex" : 100,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/opendaq-build/external/bcrypt",
+		"source" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/external/bcrypt"
+	}
+}

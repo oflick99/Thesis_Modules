@@ -1,0 +1,74 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"opendaq_set_module_properties",
+			"hbk_module"
+		],
+		"files" : 
+		[
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/cmake/openDAQUtils.cmake",
+			"cmake/hbk_module.cmake",
+			"modules/playback_device_module/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "_playback_device_module_Development",
+			"destination" : "lib/modules",
+			"paths" : 
+			[
+				"bin/MinSizeRel/playback_device_module-64-0.lib"
+			],
+			"targetId" : "playback_device_module::@d48d0eaf7495f5c741d5",
+			"targetIndex" : 131,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "_playback_device_module_Runtime",
+			"destination" : "bin/modules",
+			"paths" : 
+			[
+				"bin/MinSizeRel/playback_device_module-64-0.module.dll"
+			],
+			"targetId" : "playback_device_module::@d48d0eaf7495f5c741d5",
+			"targetIndex" : 131,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/playback_device_module",
+		"source" : "modules/playback_device_module"
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/__external/src/date/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 171,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "External",
+			"destination" : "include/date",
+			"paths" : 
+			[
+				"build/__external/src/date/include/date/date.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "External",
+			"destination" : "CMake",
+			"exportName" : "dateConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "date::@41ca283b52a2b2d109e5",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/date-build/CMakeFiles/Export/df49adab93b9e0c10c64f72458b31971/dateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "External",
+			"destination" : "CMake",
+			"paths" : 
+			[
+				"build/__external/src/date/cmake/dateConfig.cmake",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/date-build/dateConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/date-build",
+		"source" : "build/__external/src/date"
+	}
+}

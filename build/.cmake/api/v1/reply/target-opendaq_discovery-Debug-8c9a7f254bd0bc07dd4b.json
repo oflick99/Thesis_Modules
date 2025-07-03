@@ -1,0 +1,764 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /ignore:4221",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/Debug/opendaq_discovery-debug.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery/src/CMakeLists.txt",
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/CMakeLists.txt",
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 432,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 493,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 501,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 508,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 599,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 194,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 344,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 631,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 324,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 670,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 488,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 /Zf -std:c++17 -MDd"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/std:c++17"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/w15038"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/wd4250"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "/wd4458"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "/wd4201"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "/wd4702"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4459"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "/wd4505"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "/wd4127"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "/wd4706"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "/Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "/diagnostics:caret"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "/wd4100"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 24,
+					"define" : "BOOST_ALL_NO_LIB=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_RANDOM_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_RANDOM_STATIC_LINK"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "OPENDAQ_ENABLE_ACCESS_CONTROL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "OPENDAQ_ENABLE_PARAMETER_VALIDATION"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "OPENDAQ_LINKS_CORE_OBJECTS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "OPENDAQ_LOG_LEVEL=1"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "OPENDAQ_MODULE_SUFFIX=\".module.dll\""
+				},
+				{
+					"backtrace" : 28,
+					"define" : "OPENDAQ_PACKAGE_VERSION=\"3.19.3_9403b394\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "OPENDAQ_SKIP_LIB_LINK"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "OPENDAQ_SKIP_UNSTABLE_TESTS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "OPENDAQ_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_WIN32_WINNT=0x0601"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery/src/../include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/mdns"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coretypes/src/../include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coretypes/src/../include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/corecontainers/src/../include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/corecontainers/src/../include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/xxHash/cmake_unofficial/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/fmt/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/tsl-ordered-map/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/uuid/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/assert/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/config/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/container_hash/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/describe/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/mp11/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/core/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/static_assert/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/throw_exception/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/io/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/move/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/numeric/conversion/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/conversion/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/smart_ptr/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/type_traits/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/mpl/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/predef/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/preprocessor/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/utility/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/random/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/array/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/dynamic_bitset/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/integer/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/range/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/concept_check/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/detail/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/iterator/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/function_types/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/fusion/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/tuple/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/typeof/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/functional/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/function/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/bind/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/optional/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/regex/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/system/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/variant2/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/winapi/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/tti/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery_common/src/../include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2,
+					2,
+					2,
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "boost_assert::@ca781959373d446383c8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_core::@9ce778423535102284e4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_random::@ddffb027e3570cd93ea8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_system::@88f8acc0de176ce32d14"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_variant2::@7801607b17d58cfeeea6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "xxhash::@fb85592994b02f054fdd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "daqcoretypes::@b3dce13f770454be9c34"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fmt::@976f4f0bee90b99ecdb6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "daqcoreobjects::@643f86425c6589484ba5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opendaq_discovery_common::@7664192d97661602afdf"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "/openDAQ/shared/discovery"
+	},
+	"id" : "opendaq_discovery::@3a832a8ab5f5bef39469",
+	"name" : "opendaq_discovery",
+	"nameOnDisk" : "opendaq_discovery-debug.lib",
+	"paths" : 
+	{
+		"build" : "_deps/opendaq-build/shared/libraries/discovery/src",
+		"source" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery/include/daq_discovery/common.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery/include/daq_discovery/daq_discovery_client.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery/include/daq_discovery/mdnsdiscovery_client.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery/src/daq_discovery_client.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/__external/src/tsl-ordered-map/include/tsl/ordered_hash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/__external/src/tsl-ordered-map/include/tsl/ordered_map.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/__external/src/tsl-ordered-map/include/tsl/ordered_set.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/__external/src/tsl-ordered-map/tsl-ordered-map.natvis",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

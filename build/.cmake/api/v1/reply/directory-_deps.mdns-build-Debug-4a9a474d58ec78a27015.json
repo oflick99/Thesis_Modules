@@ -1,0 +1,84 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/__external/src/mdns/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "External",
+			"destination" : "share/cmake/mdns",
+			"exportName" : "mdns_Targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "mdns::@f0c631b8f74f2e386298",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/mdns-build/CMakeFiles/Export/4df33a5413a97118bfc406d13206c190/mdnsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "External",
+			"destination" : "share/cmake/mdns",
+			"paths" : 
+			[
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/mdns-build/mdnsConfig.cmake",
+				"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/mdns-build/mdnsConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "External",
+			"destination" : "include",
+			"paths" : 
+			[
+				"build/__external/src/mdns/mdns.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/mdns-build",
+		"source" : "build/__external/src/mdns"
+	}
+}

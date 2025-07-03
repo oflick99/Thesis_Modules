@@ -1,0 +1,85 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "boost_atomic::@af4e7b587c628727a501"
+		},
+		{
+			"id" : "boost_assert::@ca781959373d446383c8"
+		},
+		{
+			"id" : "boost_chrono::@be6e289178a6d7f8349b"
+		},
+		{
+			"id" : "boost_context::@713694650cfe3e0a28ae"
+		},
+		{
+			"id" : "boost_container::@c32b1d466a2a3774f8b2"
+		},
+		{
+			"id" : "boost_date_time::@66ea84c75316a41dd820"
+		},
+		{
+			"id" : "boost_coroutine::@0a134651b6718b90729d"
+		},
+		{
+			"id" : "boost_core::@9ce778423535102284e4"
+		},
+		{
+			"id" : "boost_exception::@99a4a3f312800b24f965"
+		},
+		{
+			"id" : "boost_filesystem::@bfb09f59da8919bb4a34"
+		},
+		{
+			"id" : "boost_locale::@91fc338fc29b0285f957"
+		},
+		{
+			"id" : "boost_program_options::@b183a910967c36b89731"
+		},
+		{
+			"id" : "boost_random::@ddffb027e3570cd93ea8"
+		},
+		{
+			"id" : "boost_thread::@0571f5ffef38e5273762"
+		},
+		{
+			"id" : "boost_system::@88f8acc0de176ce32d14"
+		},
+		{
+			"id" : "boost_variant2::@7801607b17d58cfeeea6"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@184f13983191e6746b19",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "_deps/boost-build",
+		"source" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

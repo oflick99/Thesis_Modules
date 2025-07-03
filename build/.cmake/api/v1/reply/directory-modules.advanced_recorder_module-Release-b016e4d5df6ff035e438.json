@@ -1,0 +1,74 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"opendaq_set_module_properties",
+			"hbk_module"
+		],
+		"files" : 
+		[
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/cmake/openDAQUtils.cmake",
+			"cmake/hbk_module.cmake",
+			"modules/advanced_recorder_module/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "_advanced_recorder_module_Development",
+			"destination" : "lib/modules",
+			"paths" : 
+			[
+				"bin/Release/advanced_recorder_module-64-0.lib"
+			],
+			"targetId" : "advanced_recorder_module::@d058b928a04ddc2fa713",
+			"targetIndex" : 98,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "_advanced_recorder_module_Runtime",
+			"destination" : "bin/modules",
+			"paths" : 
+			[
+				"bin/Release/advanced_recorder_module-64-0.module.dll"
+			],
+			"targetId" : "advanced_recorder_module::@d058b928a04ddc2fa713",
+			"targetIndex" : 98,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/advanced_recorder_module",
+		"source" : "modules/advanced_recorder_module"
+	}
+}

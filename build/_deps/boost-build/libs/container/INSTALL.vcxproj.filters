@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\oflick\HBK\Team DAQ - Oliver-Flick\241106_Bachelor\Bachelor_Arbeit\Workspace\build\CMakeFiles\81d455baa88af3fe7e9b946c6ddb50a2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{681D1535-98AA-3060-8A0D-3FAF5115BD42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

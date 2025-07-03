@@ -1,0 +1,66 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"opendaq_set_module_properties"
+		],
+		"files" : 
+		[
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/cmake/openDAQUtils.cmake",
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/modules/ref_device_module/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "openDAQ_ref_device_module_Development",
+			"destination" : "lib/modules",
+			"paths" : 
+			[
+				"bin/Release/ref_device_module-64-3.lib"
+			],
+			"targetId" : "ref_device_module::@70d43c95d0c10e3fbe09",
+			"targetIndex" : 132,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "openDAQ_ref_device_module_Runtime",
+			"destination" : "bin/modules",
+			"paths" : 
+			[
+				"bin/Release/ref_device_module-64-3.module.dll"
+			],
+			"targetId" : "ref_device_module::@70d43c95d0c10e3fbe09",
+			"targetIndex" : 132,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/opendaq-build/modules/ref_device_module/src",
+		"source" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/modules/ref_device_module/src"
+	}
+}

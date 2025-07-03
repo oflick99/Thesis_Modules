@@ -1,0 +1,5464 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /ignore:4221",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/Debug/opendaq_dev-64-3-debug.lib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"opendaq_add_library",
+			"install",
+			"target_link_libraries",
+			"opendaq_target_link_libraries",
+			"add_dependencies",
+			"add_compile_options",
+			"target_compile_options",
+			"cmake_language",
+			"opendaq_call_command",
+			"opendaq_target_compile_options",
+			"target_compile_definitions",
+			"opendaq_target_compile_definitions",
+			"add_compile_definitions",
+			"target_include_directories",
+			"opendaq_target_include_directories"
+		],
+		"files" : 
+		[
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/cmake/DaqComponents.cmake",
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/CMakeLists.txt",
+			"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 432,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 483,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 493,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 501,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 508,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 29
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 159,
+				"parent" : 31
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 32
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 33
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 599,
+				"parent" : 7
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 1
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 320,
+				"parent" : 7
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 194,
+				"parent" : 7
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 344,
+				"parent" : 7
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 7
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 631,
+				"parent" : 7
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 324,
+				"parent" : 7
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 488,
+				"parent" : 7
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 126,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 44
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 45
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 46
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 /Zf -std:c++17 -MDd"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/std:c++17"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "/w15038"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "/wd4250"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "/wd4458"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "/wd4201"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "/wd4702"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "/wd4459"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "/wd4505"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "/wd4127"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "/wd4706"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "/Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "/diagnostics:caret"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "/wd4100"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "/wd4324"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "/bigobj"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 34,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "BOOST_ALL_NO_LIB=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_ATOMIC_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_ATOMIC_STATIC_LINK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_CHRONO_STATIC_LINK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_CONTAINER_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_CONTAINER_STATIC_LINK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_CONTEXT_EXPORT="
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_CONTEXT_NO_LIB="
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_CONTEXT_STATIC_LINK="
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_COROUTINE_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_COROUTINE_STATIC_LINK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_DATE_TIME_STATIC_LINK"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "BOOST_DLL_USE_STD_FS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_FILESYSTEM_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_FILESYSTEM_STATIC_LINK=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_RANDOM_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_RANDOM_STATIC_LINK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_THREAD_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_THREAD_STATIC_LINK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_THREAD_USE_LIB"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "BUILDING_SHARED_LIBRARY"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "BUILDING_STATIC_LIBRARY"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ONLY_C_LOCALE=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "OPENDAQ_ENABLE_ACCESS_CONTROL"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "OPENDAQ_ENABLE_PARAMETER_VALIDATION"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "OPENDAQ_LINKS_CORE_OBJECTS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "OPENDAQ_LOG_LEVEL=1"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "OPENDAQ_MODULE_SUFFIX=\".module.dll\""
+				},
+				{
+					"backtrace" : 40,
+					"define" : "OPENDAQ_PACKAGE_VERSION=\"3.19.3_9403b394\""
+				},
+				{
+					"backtrace" : 36,
+					"define" : "OPENDAQ_SKIP_DLL_IMPORT"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "OPENDAQ_SKIP_LIB_LINK"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "OPENDAQ_SKIP_UNSTABLE_TESTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "OPENDAQ_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RAPIDJSON_PARSE_DEFAULT_FLAGS=256"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RAPIDJSON_SSE2"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RAPIDJSON_WRITE_DEFAULT_FLAGS=2"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SPDLOG_FMT_EXTERNAL"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SPDLOG_WCHAR_FILENAMES"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "WINVER=0x0601"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "_WIN32_WINNT=0x0601"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/logger/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/scheduler/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/context/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/context/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/functionblock/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/server/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/server/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/modulemanager/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/utility/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/utility/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/streaming/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/synchronization/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/synchronization/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/opendaq/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coreobjects/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coreobjects/src/../include/coreobjects"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/coretypes/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/coretypes/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/corecontainers/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/corecontainers/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/xxHash/cmake_unofficial/.."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/fmt/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/tsl-ordered-map/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/date/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/spdlog/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/Taskflow"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/dll/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/assert/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/config/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/core/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/static_assert/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/throw_exception/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/filesystem/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/container_hash/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/describe/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/mp11/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/detail/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/preprocessor/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/type_traits/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/io/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/iterator/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/concept_check/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/function_types/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/mpl/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/predef/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/utility/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/fusion/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/tuple/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/typeof/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/functional/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/function/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/bind/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/optional/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/move/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/smart_ptr/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/system/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/variant2/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/winapi/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/spirit/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/array/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/endian/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/integer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/phoenix/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/proto/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/range/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/conversion/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/regex/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/pool/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/thread/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/atomic/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/chrono/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/ratio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/container/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/intrusive/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/date_time/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/algorithm/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/exception/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/unordered/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/lexical_cast/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/numeric/conversion/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/tokenizer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/variant/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/type_index/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/asio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/align/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/context/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/coroutine/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery_server/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/shared/libraries/discovery_server/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main/build/__external/src/mdns"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery_common/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/discovery/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/uuid/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/random/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/dynamic_bitset/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/boost-src/libs/tti/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/shared/libraries/utils/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/shared/libraries/utils/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/external/rapidjson/src/../include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5,
+					5,
+					5,
+					5,
+					5,
+					5
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				50,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				76,
+				77,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "boost_atomic::@af4e7b587c628727a501"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_assert::@ca781959373d446383c8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_chrono::@be6e289178a6d7f8349b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_context::@713694650cfe3e0a28ae"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_container::@c32b1d466a2a3774f8b2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_date_time::@66ea84c75316a41dd820"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_coroutine::@0a134651b6718b90729d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_core::@9ce778423535102284e4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_exception::@99a4a3f312800b24f965"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_filesystem::@bfb09f59da8919bb4a34"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_random::@ddffb027e3570cd93ea8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_thread::@0571f5ffef38e5273762"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_system::@88f8acc0de176ce32d14"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "boost_variant2::@7801607b17d58cfeeea6"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "spdlog::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "xxhash::@fb85592994b02f054fdd"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "daqcoretypes::@b3dce13f770454be9c34"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "fmt::@976f4f0bee90b99ecdb6"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "daqcoreobjects::@643f86425c6589484ba5"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opendaq::@39a0dc6e5e9697dfc1de"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "opendaq_utils::@833277d61f34391db9af"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "discovery_server::@16cba926768d7c8b46b2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "opendaq_discovery_common::@7664192d97661602afdf"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "opendaq_discovery::@3a832a8ab5f5bef39469"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "/openDAQ/core/opendaq"
+	},
+	"id" : "opendaq_dev::@39a0dc6e5e9697dfc1de",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files/hbk-opendaq-modules"
+		}
+	},
+	"name" : "opendaq_dev",
+	"nameOnDisk" : "opendaq_dev-64-3-debug.lib",
+	"paths" : 
+	{
+		"build" : "_deps/opendaq-build/core/opendaq",
+		"source" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "logger\\logger",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				104,
+				201,
+				202,
+				204,
+				208,
+				209,
+				211
+			]
+		},
+		{
+			"name" : "logger\\component",
+			"sourceIndexes" : 
+			[
+				2,
+				105,
+				205,
+				213
+			]
+		},
+		{
+			"name" : "logger\\sink",
+			"sourceIndexes" : 
+			[
+				3,
+				106,
+				107,
+				108,
+				109,
+				206,
+				215
+			]
+		},
+		{
+			"name" : "logger\\threadpool",
+			"sourceIndexes" : 
+			[
+				4,
+				110,
+				111,
+				207,
+				218
+			]
+		},
+		{
+			"name" : "scheduler\\scheduler",
+			"sourceIndexes" : 
+			[
+				5,
+				112,
+				219,
+				226
+			]
+		},
+		{
+			"name" : "scheduler\\awaitable",
+			"sourceIndexes" : 
+			[
+				6,
+				113,
+				230
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				7,
+				53,
+				55,
+				91,
+				94,
+				101
+			]
+		},
+		{
+			"name" : "scheduler\\task",
+			"sourceIndexes" : 
+			[
+				8,
+				114,
+				220,
+				223,
+				228,
+				232
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				9,
+				51,
+				61,
+				75,
+				103,
+				576
+			]
+		},
+		{
+			"name" : "signal\\connection",
+			"sourceIndexes" : 
+			[
+				10,
+				118,
+				240,
+				274
+			]
+		},
+		{
+			"name" : "signal\\dimension",
+			"sourceIndexes" : 
+			[
+				11,
+				12,
+				119,
+				120,
+				242,
+				276,
+				278
+			]
+		},
+		{
+			"name" : "signal\\range",
+			"sourceIndexes" : 
+			[
+				13,
+				121,
+				247,
+				252,
+				286
+			]
+		},
+		{
+			"name" : "signal\\signal",
+			"sourceIndexes" : 
+			[
+				14,
+				251,
+				258,
+				271,
+				296,
+				298,
+				316,
+				324
+			]
+		},
+		{
+			"name" : "signal\\packet",
+			"sourceIndexes" : 
+			[
+				15,
+				16,
+				17,
+				25,
+				125,
+				126,
+				127,
+				128,
+				137,
+				142,
+				246,
+				256,
+				257,
+				260,
+				261,
+				262,
+				263,
+				264,
+				268,
+				269,
+				270,
+				280,
+				282,
+				284,
+				292,
+				294
+			]
+		},
+		{
+			"name" : "signal\\dimension_rule",
+			"sourceIndexes" : 
+			[
+				18,
+				19,
+				133,
+				134,
+				243,
+				304,
+				306
+			]
+		},
+		{
+			"name" : "signal\\data_rule",
+			"sourceIndexes" : 
+			[
+				20,
+				21,
+				131,
+				132,
+				135,
+				139,
+				146,
+				241,
+				308,
+				310
+			]
+		},
+		{
+			"name" : "signal\\scaling",
+			"sourceIndexes" : 
+			[
+				22,
+				23,
+				129,
+				130,
+				136,
+				140,
+				248,
+				312,
+				314
+			]
+		},
+		{
+			"name" : "signal\\input_port",
+			"sourceIndexes" : 
+			[
+				24,
+				124,
+				245,
+				259,
+				300,
+				302,
+				318,
+				322
+			]
+		},
+		{
+			"name" : "signal\\data_descriptor",
+			"sourceIndexes" : 
+			[
+				26,
+				27,
+				122,
+				123,
+				244,
+				288,
+				290
+			]
+		},
+		{
+			"name" : "signal\\allocator",
+			"sourceIndexes" : 
+			[
+				28,
+				29,
+				138,
+				141,
+				265,
+				266,
+				267
+			]
+		},
+		{
+			"name" : "signal",
+			"sourceIndexes" : 
+			[
+				30,
+				249,
+				250,
+				253,
+				254,
+				255
+			]
+		},
+		{
+			"name" : "signal\\reference_domain_info",
+			"sourceIndexes" : 
+			[
+				31,
+				32,
+				143,
+				144,
+				272,
+				326,
+				328
+			]
+		},
+		{
+			"name" : "function_block\\function_block",
+			"sourceIndexes" : 
+			[
+				33,
+				147,
+				329,
+				332,
+				335,
+				337
+			]
+		},
+		{
+			"name" : "function_block\\function_block_wrapper",
+			"sourceIndexes" : 
+			[
+				34,
+				35,
+				148,
+				149,
+				333,
+				343
+			]
+		},
+		{
+			"name" : "device\\device",
+			"sourceIndexes" : 
+			[
+				36,
+				47,
+				150,
+				158,
+				344,
+				347,
+				351,
+				364,
+				365,
+				366,
+				367,
+				368,
+				371,
+				375,
+				377,
+				379,
+				381
+			]
+		},
+		{
+			"name" : "device\\io_folder",
+			"sourceIndexes" : 
+			[
+				37,
+				348,
+				349,
+				385
+			]
+		},
+		{
+			"name" : "device\\device_type",
+			"sourceIndexes" : 
+			[
+				38,
+				151,
+				350,
+				387
+			]
+		},
+		{
+			"name" : "device\\core_events",
+			"sourceIndexes" : 
+			[
+				39,
+				352,
+				353
+			]
+		},
+		{
+			"name" : "device\\server_capability",
+			"sourceIndexes" : 
+			[
+				40,
+				42,
+				43,
+				48,
+				153,
+				154,
+				159,
+				354,
+				355,
+				356,
+				369,
+				389,
+				391,
+				393
+			]
+		},
+		{
+			"name" : "device\\device_domain",
+			"sourceIndexes" : 
+			[
+				41,
+				152,
+				357
+			]
+		},
+		{
+			"name" : "device\\log_file_info",
+			"sourceIndexes" : 
+			[
+				44,
+				45,
+				155,
+				156,
+				359,
+				360,
+				361
+			]
+		},
+		{
+			"name" : "device\\user_lock",
+			"sourceIndexes" : 
+			[
+				46,
+				157,
+				362,
+				363
+			]
+		},
+		{
+			"name" : "device",
+			"sourceIndexes" : 
+			[
+				49,
+				345,
+				346
+			]
+		},
+		{
+			"name" : "server",
+			"sourceIndexes" : 
+			[
+				50,
+				160,
+				400,
+				401,
+				403,
+				405
+			]
+		},
+		{
+			"name" : "module_manager\\manager",
+			"sourceIndexes" : 
+			[
+				52,
+				163,
+				164,
+				408,
+				425,
+				427
+			]
+		},
+		{
+			"name" : "module_manager\\context",
+			"sourceIndexes" : 
+			[
+				54,
+				166,
+				413,
+				429
+			]
+		},
+		{
+			"name" : "module_manager\\ping",
+			"sourceIndexes" : 
+			[
+				56,
+				57,
+				58,
+				414,
+				415,
+				416,
+				417
+			]
+		},
+		{
+			"name" : "discovery_server",
+			"sourceIndexes" : 
+			[
+				59,
+				167,
+				418,
+				431
+			]
+		},
+		{
+			"name" : "module_manager\\info",
+			"sourceIndexes" : 
+			[
+				60,
+				419,
+				420,
+				421
+			]
+		},
+		{
+			"name" : "reader\\stream",
+			"sourceIndexes" : 
+			[
+				62,
+				63,
+				168,
+				169,
+				452,
+				454
+			]
+		},
+		{
+			"name" : "reader\\block",
+			"sourceIndexes" : 
+			[
+				64,
+				65,
+				170,
+				171,
+				444,
+				456,
+				458
+			]
+		},
+		{
+			"name" : "reader\\tail",
+			"sourceIndexes" : 
+			[
+				66,
+				67,
+				172,
+				173,
+				460,
+				462,
+				470
+			]
+		},
+		{
+			"name" : "reader\\packet",
+			"sourceIndexes" : 
+			[
+				68,
+				174,
+				464
+			]
+		},
+		{
+			"name" : "reader\\reader",
+			"sourceIndexes" : 
+			[
+				69,
+				70,
+				71,
+				179,
+				180,
+				433,
+				434,
+				436,
+				437,
+				438,
+				442,
+				446,
+				448,
+				450
+			]
+		},
+		{
+			"name" : "reader\\multi",
+			"sourceIndexes" : 
+			[
+				72,
+				73,
+				74,
+				175,
+				176,
+				177,
+				178,
+				440,
+				466,
+				468,
+				472
+			]
+		},
+		{
+			"name" : "utility\\ids_parser",
+			"sourceIndexes" : 
+			[
+				76,
+				475
+			]
+		},
+		{
+			"name" : "utility",
+			"sourceIndexes" : 
+			[
+				77,
+				78,
+				473,
+				474,
+				477
+			]
+		},
+		{
+			"name" : "component\\component",
+			"sourceIndexes" : 
+			[
+				79,
+				80,
+				81,
+				86,
+				186,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				493,
+				497,
+				498,
+				499,
+				502,
+				507,
+				509,
+				511,
+				513,
+				520
+			]
+		},
+		{
+			"name" : "component\\search_filter",
+			"sourceIndexes" : 
+			[
+				82,
+				182,
+				488,
+				516,
+				518
+			]
+		},
+		{
+			"name" : "component\\tag",
+			"sourceIndexes" : 
+			[
+				83,
+				183,
+				489,
+				522,
+				524
+			]
+		},
+		{
+			"name" : "component\\component_status_container",
+			"sourceIndexes" : 
+			[
+				84,
+				184,
+				490,
+				491,
+				492
+			]
+		},
+		{
+			"name" : "component\\component_holder",
+			"sourceIndexes" : 
+			[
+				85,
+				185,
+				528
+			]
+		},
+		{
+			"name" : "streaming\\subscription_event_args",
+			"sourceIndexes" : 
+			[
+				87,
+				187,
+				537,
+				549
+			]
+		},
+		{
+			"name" : "streaming_type",
+			"sourceIndexes" : 
+			[
+				88,
+				188,
+				541,
+				542
+			]
+		},
+		{
+			"name" : "streaming",
+			"sourceIndexes" : 
+			[
+				89
+			]
+		},
+		{
+			"name" : "synchronization\\synchronization",
+			"sourceIndexes" : 
+			[
+				90,
+				189,
+				554,
+				555,
+				556
+			]
+		},
+		{
+			"name" : "opendaq\\instance",
+			"sourceIndexes" : 
+			[
+				92,
+				93,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				102,
+				191,
+				192,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				563,
+				564,
+				565,
+				568,
+				570,
+				572
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				115,
+				116,
+				161,
+				162,
+				165,
+				190,
+				193,
+				203,
+				221,
+				222,
+				234,
+				330,
+				358,
+				435,
+				439,
+				476,
+				494,
+				495,
+				500,
+				559,
+				560,
+				561,
+				562,
+				566,
+				573,
+				574,
+				575,
+				577,
+				578,
+				579,
+				580,
+				581
+			]
+		},
+		{
+			"name" : "scheduler\\work",
+			"sourceIndexes" : 
+			[
+				117,
+				224,
+				236
+			]
+		},
+		{
+			"name" : "Generated\\Header Files",
+			"sourceIndexes" : 
+			[
+				145,
+				210,
+				212,
+				214,
+				216,
+				217,
+				225,
+				227,
+				229,
+				231,
+				233,
+				235,
+				238,
+				273,
+				275,
+				277,
+				279,
+				281,
+				283,
+				285,
+				287,
+				289,
+				291,
+				293,
+				295,
+				297,
+				299,
+				301,
+				303,
+				305,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				319,
+				320,
+				321,
+				323,
+				325,
+				327,
+				334,
+				336,
+				338,
+				340,
+				342,
+				370,
+				372,
+				373,
+				374,
+				376,
+				378,
+				380,
+				382,
+				383,
+				384,
+				386,
+				388,
+				390,
+				392,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				402,
+				404,
+				422,
+				424,
+				426,
+				428,
+				430,
+				432,
+				441,
+				443,
+				445,
+				447,
+				449,
+				451,
+				453,
+				455,
+				457,
+				459,
+				461,
+				463,
+				465,
+				467,
+				469,
+				471,
+				501,
+				503,
+				504,
+				506,
+				508,
+				510,
+				512,
+				514,
+				515,
+				517,
+				519,
+				521,
+				523,
+				525,
+				526,
+				527,
+				529,
+				531,
+				532,
+				544,
+				546,
+				548,
+				550,
+				551,
+				552,
+				553,
+				557,
+				558,
+				567,
+				569,
+				571
+			]
+		},
+		{
+			"name" : "component_type",
+			"sourceIndexes" : 
+			[
+				181,
+				200,
+				478,
+				496,
+				505,
+				530
+			]
+		},
+		{
+			"name" : "context\\context",
+			"sourceIndexes" : 
+			[
+				237,
+				239
+			]
+		},
+		{
+			"name" : "function_block\\channel",
+			"sourceIndexes" : 
+			[
+				331,
+				339
+			]
+		},
+		{
+			"name" : "function_block\\recorder",
+			"sourceIndexes" : 
+			[
+				341
+			]
+		},
+		{
+			"name" : "module_manager\\errors",
+			"sourceIndexes" : 
+			[
+				406,
+				407
+			]
+		},
+		{
+			"name" : "module_manager\\module",
+			"sourceIndexes" : 
+			[
+				409,
+				410,
+				411,
+				412,
+				423
+			]
+		},
+		{
+			"name" : "streaming\\streaming",
+			"sourceIndexes" : 
+			[
+				533,
+				535,
+				545
+			]
+		},
+		{
+			"name" : "streaming\\mirrored_signal",
+			"sourceIndexes" : 
+			[
+				534,
+				536,
+				547
+			]
+		},
+		{
+			"name" : "streaming\\mirrored_device",
+			"sourceIndexes" : 
+			[
+				538,
+				539,
+				540,
+				543
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/src/log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/src/logger_impl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/src/logger_component_impl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/src/logger_sink_impl.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/src/logger_thread_pool_impl.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/src/scheduler_impl.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/src/awaitable_impl.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/src/task_graph_impl.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/src/task_impl.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/src/scheduler.natvis",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/connection_impl.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/dimension_impl.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/dimension_builder_impl.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/range_impl.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/signal_impl.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/data_packet_impl.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/generic_data_packet_impl.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/event_packet_impl.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/dimension_rule_impl.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/dimension_rule_builder_impl.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/data_rule_impl.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/data_rule_builder_impl.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/scaling_impl.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/scaling_builder_impl.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/input_port_impl.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/binary_data_packet_impl.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/data_descriptor_impl.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/data_descriptor_builder_impl.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/malloc_allocator_impl.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/external_allocator_impl.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/signal.natvis",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/reference_domain_info_impl.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/src/reference_domain_info_builder_impl.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/src/function_block_type_impl.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/src/function_block_wrapper_impl.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/src/property_wrapper_impl.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/device_info_impl.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/io_folder_impl.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/device_type_impl.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/core_opendaq_event_args_impl.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/server_capability_impl.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/device_domain_impl.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/address_info_impl.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/address_info_builder_impl.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/log_file_info_impl.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/log_file_info_builder_impl.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/user_lock_impl.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/network_interface_impl.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/connected_client_info_impl.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/src/device.natvis",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/server/src/server_type_impl.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/server/src/server.natvis",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/src/module_manager_impl.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/src/module_manager_init.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/src/context_impl.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/src/orphaned_modules.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/src/ipv4_header.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/src/icmp_header.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/src/icmp_ping.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/src/mdns_discovery_server_impl.cpp",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/src/module_info_impl.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/src/module_manager.natvis",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/stream_reader_impl.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/stream_reader_builder_impl.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/block_reader_impl.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/block_reader_builder_impl.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/tail_reader_impl.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/tail_reader_builder_impl.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/packet_reader_impl.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/reader_status_impl.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/reader_impl.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/typed_reader.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/multi_reader_impl.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/multi_reader_builder_impl.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/signal_reader.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/src/reader.natvis",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/utility/src/ids_parser.cpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/utility/src/thread_name.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/utility/src/utility.natvis",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/src/component_impl.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/src/folder_impl.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/src/component_deserialize_context_impl.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/src/search_filter_impl.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/src/tags_impl.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/src/component_status_container_impl.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/src/component_holder_impl.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/src/update_parameters_impl.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/src/subscription_event_args_impl.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/src/streaming_type_impl.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/src/streaming.natvis",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/synchronization/src/sync_component_impl.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/version.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/instance_impl.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/client_impl.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/opendaq_init.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/instance_builder_impl.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/path_tool.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/json_config_provider_impl.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/base_config_provider_impl.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/env_config_provider_impl.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/cmd_line_args_config_provider_impl.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/component_type_builder_impl.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/client_type.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/src/opendaq.natvis",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_impl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_component_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_sink_impl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_sink_base_private.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_sink_last_message_private.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_sink_last_message_impl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_thread_pool_private.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_thread_pool_impl.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/scheduler_impl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/awaitable_impl.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/task_impl.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/task_internal.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/task_flow.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/work_impl.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/connection_impl.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/dimension_impl.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/dimension_builder_impl.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/range_impl.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_descriptor_impl.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_descriptor_builder_impl.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/input_port_impl.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/packet_impl.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/generic_data_packet_impl.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_packet_impl.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/event_packet_impl.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/scaling_impl.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/scaling_builder_impl.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_rule_impl.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_rule_builder_impl.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/dimension_rule_impl.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/dimension_rule_builder_impl.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_rule_calc.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/scaling_calc.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/binary_data_packet_impl.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/malloc_allocator_impl.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_rule_calc_private.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/scaling_calc_private.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/external_allocator_impl.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/reference_domain_offset_adder.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/reference_domain_info_impl.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/reference_domain_info_builder_impl.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/rule_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/rule_private.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/function_block_type_impl.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/function_block_wrapper_impl.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/property_wrapper_impl.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_info_impl.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_type_impl.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_domain_impl.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/address_info_impl.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/address_info_builder_impl.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/log_file_info_impl.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/log_file_info_builder_impl.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/user_lock_impl.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/network_interface_impl.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/connected_client_info_impl.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/server/include/opendaq/server_type_impl.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_library.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/orphaned_modules.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_manager_impl.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_manager_init.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/boost_dll.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/context_impl.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/mdns_discovery_server_impl.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/stream_reader_impl.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/stream_reader_builder_impl.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/block_reader_impl.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/block_reader_builder_impl.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/tail_reader_impl.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/tail_reader_builder_impl.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/packet_reader_impl.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/multi_reader_impl.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/multi_reader_builder_impl.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/multi_typed_reader.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/signal_reader.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/reader_status_impl.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/reader_impl.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_type_impl.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/search_filter_impl.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/tags_impl.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_status_container_private.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_holder_impl.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/update_parameters_impl.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/subscription_event_args_impl.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/streaming_type_impl.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/synchronization/include/opendaq/sync_component_impl.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/opendaq_config.h.in",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/instance_impl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/client_impl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/opendaq_init.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/instance_builder_impl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/path_tool.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/json_config_provider_impl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/base_config_provider_impl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/env_config_provider_impl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/cmd_line_args_config_provider_impl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/component_type_builder_impl.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/log.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/log_level.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_errors.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_component_factory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_sink_factory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_thread_pool_factory.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/source_location.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/custom_log.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/logger/include/opendaq/logger_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/logger/include/opendaq/logger_component_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_component.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/logger/include/opendaq/logger_sink_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_sink.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/logger/include/opendaq/logger_sink_last_message_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/logger/include/opendaq/logger_thread_pool_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/logger/include/opendaq/logger_thread_pool.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/scheduler_factory.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/task_factory.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/scheduler_errors.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/scheduler_exceptions.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/task_ptr.custom.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/work_factory.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/scheduler/include/opendaq/scheduler_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/scheduler.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/scheduler/include/opendaq/task_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/task.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/scheduler/include/opendaq/awaitable_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/awaitable.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/scheduler/include/opendaq/task_graph_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/task_graph.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/scheduler/include/opendaq/graph_visualization_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/graph_visualization.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/scheduler/include/opendaq/work_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/scheduler/include/opendaq/work.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/context/include/opendaq/context_ptr.fwd_declare.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/context/include/opendaq/context_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/context/include/opendaq/context.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/connection_factory.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_rule_factory.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/dimension_factory.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/dimension_rule_factory.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_descriptor_factory.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/input_port_factory.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/packet_factory.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/range_factory.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/scaling_factory.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/signal_errors.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/signal_exceptions.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/signal_factory.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/range_type.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/sample_type.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/sample_type_traits.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/signal_utils.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/event_packet_ids.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/event_packet_utils.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/signal_container_impl.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/input_port_config_ptr.custom.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/binary_data_packet.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/binary_data_packet_factory.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/deleter.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/deleter_impl.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/deleter_factory.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/allocator.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/malloc_allocator_factory.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/external_allocator_factory.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/event_packet_params.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/packet_destruct_callback_impl.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/packet_destruct_callback_factory.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/signal_impl.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/reference_domain_info_factory.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/connection_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/connection.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/dimension_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/dimension.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/dimension_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/dimension_builder.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/event_packet_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/event_packet.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/packet_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/packet.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/packet_destruct_callback_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/packet_destruct_callback.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/range_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/range.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/data_descriptor_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_descriptor.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/data_descriptor_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_descriptor_builder.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/data_packet_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_packet.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/reusable_data_packet_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/reusable_data_packet.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/signal_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/signal.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/signal_config_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/signal_config.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/input_port_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/input_port.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/input_port_config_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/input_port_config.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/dimension_rule_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/dimension_rule.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/dimension_rule_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/dimension_rule_builder.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/data_rule_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_rule.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/data_rule_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/data_rule_builder.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/scaling_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/scaling.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/scaling_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/scaling_builder.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/signal_events_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/signal_events.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/input_port_notifications_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/input_port_notifications.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/deleter_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/allocator_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/input_port_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/input_port_private.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/signal_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/signal_private.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/reference_domain_info_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/reference_domain_info.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/signal/include/opendaq/reference_domain_info_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/signal/include/opendaq/reference_domain_info_builder.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/function_block_type_factory.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/function_block_errors.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/channel_impl.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/function_block_impl.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/function_block_wrapper_factory.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/functionblock/include/opendaq/function_block_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/function_block.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/functionblock/include/opendaq/function_block_type_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/function_block_type.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/functionblock/include/opendaq/channel_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/channel.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/functionblock/include/opendaq/recorder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/recorder.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/functionblock/include/opendaq/function_block_wrapper_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/functionblock/include/opendaq/function_block_wrapper.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_info_factory.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_errors.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_exceptions.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_impl.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/io_folder_factory.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/io_folder_impl.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_type_factory.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_private.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/core_opendaq_event_args_factory.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/core_opendaq_event_args.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/server_capability.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/server_capability_config.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/server_capability_impl.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_domain_factory.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/address_info_factory.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/log_file_info.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/log_file_info_builder.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/log_file_info_factory.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/user_lock.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/user_lock_factory.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/connection_status_container_private.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/connection_status_container_impl.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/network_interface.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/network_interface_factory.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_network_config.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/connected_client_info.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/device_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/device_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/device_network_config_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/device_domain_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_domain.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/device_info_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_info.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/device_info_config_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_info_config.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/device_info_internal_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_info_internal.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/server_capability_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/server_capability_config_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/io_folder_config_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/io_folder_config.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/device_type_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/device_type.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/address_info_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/address_info.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/address_info_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/address_info_builder.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/address_info_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/device/include/opendaq/address_info_private.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/log_file_info_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/log_file_info_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/user_lock_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/connection_status_container_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/network_interface_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/device/include/opendaq/connected_client_info_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/server/include/opendaq/server_type_factory.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/server/include/opendaq/server_impl.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/server/include/opendaq/server_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/server/include/opendaq/server.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/server/include/opendaq/server_type_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/server/include/opendaq/server_type.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_manager_errors.h",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_manager_exceptions.h",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_manager_factory.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_check_dependencies.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_factory.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_exports.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_impl.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/context_factory.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/format.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/ipv4_header.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/icmp_header.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/icmp_ping.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/discovery_server_factory.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_info.h",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_info_factory.h",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_info_impl.h",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/modulemanager/include/opendaq/module_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/modulemanager/include/opendaq/module_manager_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_manager.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/modulemanager/include/opendaq/module_manager_utils_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/module_manager_utils.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/modulemanager/include/opendaq/context_internal_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/context_internal.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/modulemanager/include/opendaq/discovery_server_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/modulemanager/include/opendaq/discovery_server.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/modulemanager/include/opendaq/module_info_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/reader_factory.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/reader_errors.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/reader_exceptions.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/typed_reader.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/time_reader.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/read_info.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/reader_utils.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/reader_domain_info.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/reader_status_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/reader_status.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/block_reader_status_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/block_reader_status.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/reader_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/reader.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/sample_reader_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/sample_reader.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/reader_config_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/reader_config.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/stream_reader_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/stream_reader.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/stream_reader_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/stream_reader_builder.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/block_reader_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/block_reader.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/block_reader_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/block_reader_builder.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/tail_reader_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/tail_reader.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/tail_reader_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/tail_reader_builder.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/packet_reader_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/packet_reader.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/multi_reader_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/multi_reader.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/multi_reader_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/multi_reader_builder.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/tail_reader_status_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/tail_reader_status.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/reader/include/opendaq/multi_reader_status_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/reader/include/opendaq/multi_reader_status.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/utility/include/opendaq/utility_errors.h",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/utility/include/opendaq/utility_exceptions.h",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/utility/include/opendaq/ids_parser.h",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/utility/include/opendaq/mem_pool_allocator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/utility/include/opendaq/thread_name.h",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_type.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_impl.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_ptr.custom.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/folder_factory.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/folder_impl.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/deserialize_component.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_factory.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_keys.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_deserialize_context_factory.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_deserialize_context_impl.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/search_filter_factory.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/tags_factory.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_status_container.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_status_container_factory.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_status_container_impl.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_holder_factory.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_errors.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_exceptions.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_type_builder_factory.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_update_context.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_update_context_impl.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/update_parameters.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/update_parameters_factory.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/component_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/component_type_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/component_type_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_type_private.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/folder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/folder.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/folder_config_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/folder_config.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/removable_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/removable.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/component_deserialize_context_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_deserialize_context.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/deserialize_component_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/search_filter_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/search_filter.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/recursive_search_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/recursive_search.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/component_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_private.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/tags_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/tags.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/tags_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/tags_private.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/component_status_container_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/component_status_container_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/component_holder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_holder.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/component_type_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/component/include/opendaq/component_type_builder.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/component_update_context_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/component/include/opendaq/update_parameters_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/streaming_impl.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/mirrored_signal_impl.h",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/streaming_private.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/mirrored_signal_private.h",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/subscription_event_args_factory.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/mirrored_device.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/mirrored_device_config.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/mirrored_device_impl.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/streaming_type.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/streaming_type_factory.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/streaming_source_manager.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/streaming/include/opendaq/streaming_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/streaming.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/streaming/include/opendaq/mirrored_signal_config_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/mirrored_signal_config.h",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/streaming/include/opendaq/subscription_event_args_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/streaming/include/opendaq/subscription_event_args.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/streaming/include/opendaq/mirrored_signal_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/streaming/include/opendaq/mirrored_device_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/streaming/include/opendaq/mirrored_device_config_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/streaming/include/opendaq/streaming_type_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/synchronization/include/opendaq/sync_component.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/synchronization/include/opendaq/sync_component_private.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/synchronization/include/opendaq/sync_component_factory.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/synchronization/include/opendaq/sync_component_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/synchronization/include/opendaq/sync_component_private_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/version.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/opendaq.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/errors.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/exceptions.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/instance_factory.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/config_provider_factory.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/client_type.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/opendaq/include/opendaq/opendaq_config.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/opendaq/include/opendaq/instance_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/instance.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/opendaq/include/opendaq/instance_builder_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/instance_builder.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-build/core/opendaq/opendaq/include/opendaq/config_provider_ptr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/_deps/opendaq-src/core/opendaq/opendaq/include/opendaq/config_provider.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/__external/src/tsl-ordered-map/include/tsl/ordered_hash.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/__external/src/tsl-ordered-map/include/tsl/ordered_map.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/__external/src/tsl-ordered-map/include/tsl/ordered_set.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/__external/src/tsl-ordered-map/tsl-ordered-map.natvis",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/__external/src/date/include/date/date.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/__external/src/date/include/date/solar_hijri.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/__external/src/date/include/date/islamic.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/__external/src/date/include/date/iso_week.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/__external/src/date/include/date/julian.h",
+			"sourceGroupIndex" : 57
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -4,6 +4,7 @@ project(hbk-opendaq-modules VERSION 0.0.1 LANGUAGES C CXX)
 
 # Project options.
 option(HBK_OPENDAQ_ENABLE_ADVANCED_RECORDER "Build the advanced recorder module"    ON)
+option(HBK_OPENDAQ_ENABLE_TRIGGER           "Build the trigger module"              ON)
 option(HBK_OPENDAQ_ENABLE_CAMERA_DEVICE     "Build the camera device module"        OFF)
 option(HBK_OPENDAQ_ENABLE_MTIG710_DEVICE    "Build the MTi-G-710 device module"     ON)
 option(HBK_OPENDAQ_ENABLE_PLAYBACK_DEVICE   "Build the playback device module"      ON)
@@ -38,6 +39,10 @@ endif()
 
 if(HBK_OPENDAQ_ENABLE_PLAYBACK_DEVICE)
     add_subdirectory("modules/playback_device_module")
+endif()
+
+if(HBK_OPENDAQ_ENABLE_TRIGGER)
+    add_subdirectory("modules/trigger_fb_module")
 endif()
 
 if(HBK_OPENDAQ_ENABLE_APPS)

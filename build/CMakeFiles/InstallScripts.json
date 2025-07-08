@@ -148,6 +148,7 @@
 		"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/advanced_recorder_module/cmake_install.cmake",
 		"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/mtig710_device_module/cmake_install.cmake",
 		"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/playback_device_module/cmake_install.cmake",
+		"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/trigger_fb_module/cmake_install.cmake",
 		"C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/apps/cmake_install.cmake"
 	],
 	"Parallel" : false

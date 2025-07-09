@@ -12,7 +12,7 @@ else()
     function(FetchOpenCV)
 
         set(BUILD_opencv_world  ON)
-        set(BUILD_SHARED_LIBS   OFF)
+        set(BUILD_SHARED_LIBS   OFF
         set(ENABLE_PIC          ON)
         set(BUILD_TESTS         OFF)
         set(BUILD_PERF_TESTS    OFF)

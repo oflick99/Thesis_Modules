@@ -578,10 +578,10 @@ C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Work
 C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/playback_device_module/CMakeFiles/PACKAGE.dir
 C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/playback_device_module/CMakeFiles/RUN_TESTS.dir
 C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/playback_device_module/CMakeFiles/INSTALL.dir
-C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/trigger_fb_module/CMakeFiles/trigger_fb_module.dir
-C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/trigger_fb_module/CMakeFiles/PACKAGE.dir
-C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/trigger_fb_module/CMakeFiles/RUN_TESTS.dir
-C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/trigger_fb_module/CMakeFiles/INSTALL.dir
+C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/static_fatigue_module/CMakeFiles/static_fatigue_module.dir
+C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/static_fatigue_module/CMakeFiles/PACKAGE.dir
+C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/static_fatigue_module/CMakeFiles/RUN_TESTS.dir
+C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/modules/static_fatigue_module/CMakeFiles/INSTALL.dir
 C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/apps/CMakeFiles/advanced_recorder_test.dir
 C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/apps/CMakeFiles/PACKAGE.dir
 C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/build/apps/CMakeFiles/RUN_TESTS.dir

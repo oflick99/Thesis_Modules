@@ -263,6 +263,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{1B8A01CE-4ECD-335C-A62F-44527DAF8F7C}</Project>
       <Name>playback_device_module</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\oflick\HBK\Team DAQ - Oliver-Flick\241106_Bachelor\Bachelor_Arbeit\Workspace\build\modules\static_fatigue_module\static_fatigue_module.vcxproj">
+      <Project>{7713487B-DFFE-3098-BFDD-F33AE2D622CB}</Project>
+      <Name>static_fatigue_module</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\oflick\HBK\Team DAQ - Oliver-Flick\241106_Bachelor\Bachelor_Arbeit\Workspace\build\modules\advanced_recorder_module\test_advanced_recorder_module.vcxproj">
       <Project>{94D2492F-A20C-3581-AAA3-B94E373C54B3}</Project>
       <Name>test_advanced_recorder_module</Name>
@@ -274,10 +278,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\oflick\HBK\Team DAQ - Oliver-Flick\241106_Bachelor\Bachelor_Arbeit\Workspace\build\modules\playback_device_module\test_playback_device_module.vcxproj">
       <Project>{70B760E6-C0E4-36C6-B6DC-BEC23E4AA3A3}</Project>
       <Name>test_playback_device_module</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\oflick\HBK\Team DAQ - Oliver-Flick\241106_Bachelor\Bachelor_Arbeit\Workspace\build\modules\trigger_fb_module\trigger_fb_module.vcxproj">
-      <Project>{F09DF2DB-76D6-3954-9091-D8E9483FF73C}</Project>
-      <Name>trigger_fb_module</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -27,14 +27,13 @@
 #include <iostream>
 #include <string>
 
-#define BEGIN_NAMESPACE_TRIGGER_FB_MODULE BEGIN_NAMESPACE_OPENDAQ_MODULE(trigger_fb_module)
+#define BEGIN_NAMESPACE_STATIC_FATIGUE_MODULE BEGIN_NAMESPACE_OPENDAQ_MODULE(static_fatigue_module)
 
 #define TRIGGER_GATE_BUFFER_SIZE 409600     //4 Byte * 100.000 Samples * 1 Seconds ~ 400kB
 
-static const std::string TRIGGER_FB_MODULE_NAME = "TriggerFbModule";
-static const std::string LOGIC_FB_NAME = "LogicFb";
-static const std::string TRIGGER_FB_NAME = "TriggerFb";
-static const std::string TRIGGER__GATE_FB_NAME = "TriggetGateFb"; 
+static const std::string STATIC_FATIGUE_MODULE_NAME = "StaticFatigueModule";
+static const std::string SG_SUBTRACTION_FB_NAME = "SGSubtractionFb";
+
 
 static int64_t milliSecondsSinceEpoch()
 {
@@ -44,4 +43,4 @@ static int64_t milliSecondsSinceEpoch()
 
 }
 
-#define END_NAMESPACE_TRIGGER_FB_MODULE END_NAMESPACE_OPENDAQ_MODULE
+#define END_NAMESPACE_STATIC_FATIGUE_MODULE END_NAMESPACE_OPENDAQ_MODULE

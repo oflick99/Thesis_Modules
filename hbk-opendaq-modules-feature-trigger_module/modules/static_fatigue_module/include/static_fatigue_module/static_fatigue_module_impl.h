@@ -24,18 +24,18 @@
  #pragma once
  #include <opendaq/module_impl.h>
 
- #include "trigger_fb_module/common.h"
+ #include "static_fatigue_module/common.h"
  
- BEGIN_NAMESPACE_TRIGGER_FB_MODULE
+ BEGIN_NAMESPACE_STATIC_FATIGUE_MODULE
  
- class TriggerFbModule final : public Module
+ class StaticFatigueModule final : public Module
  {
  public:
-     explicit TriggerFbModule(ContextPtr ctx);
+     explicit StaticFatigueModule(ContextPtr ctx);
  
      DictPtr<IString, IFunctionBlockType> onGetAvailableFunctionBlockTypes() override;
      FunctionBlockPtr onCreateFunctionBlock(const StringPtr& id, const ComponentPtr& parent, const StringPtr& localId, const PropertyObjectPtr& config) override;
  private:
  };
  
- END_NAMESPACE_TRIGGER_FB_MODULE
+ END_NAMESPACE_STATIC_FATIGUE_MODULE

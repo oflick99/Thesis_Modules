@@ -23,4 +23,4 @@
  #pragma once
  #include <opendaq/module_exports.h>
  
- DECLARE_MODULE_EXPORTS(TriggerFbModule)
+ DECLARE_MODULE_EXPORTS(StaticFatigueModule)

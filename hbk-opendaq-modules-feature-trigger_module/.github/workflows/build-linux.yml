@@ -1,0 +1,54 @@
+name: Linux
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+
+  build:
+
+    name: Build
+
+    runs-on:
+      group: fusion-devops-k8s
+
+    strategy:
+      matrix:
+        config: [debug, release]
+        include:
+          - config: debug
+            cmakeBuildType: Debug
+          - config: release
+            cmakeBuildType: Release
+
+    steps:
+
+      - name: Cleanup
+        run: find . -name . -o -prune -exec rm -rf -- {} +
+
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build project (${{ matrix.config }})
+        run: |
+          cmake -S . -B build \
+            -DCMAKE_BUILD_TYPE=${{ matrix.cmakeBuildType }} \
+            -DCMAKE_INSTALL_PREFIX=/
+          cmake --build build
+        
+      - name: Stage install (${{ matrix.config }})
+        run: DESTDIR=stage cmake --install build
+
+      - name: Upload artifacts (${{ matrix.config }})
+        uses: actions/upload-artifact@v4
+        with:
+          name: modules-${{ matrix.config }}
+          path: stage/*
+
+      - name: Run tests
+        uses: threeal/ctest-action@v1.1.0
+        if: matrix.config == 'debug'
+        with:
+          test-dir: build

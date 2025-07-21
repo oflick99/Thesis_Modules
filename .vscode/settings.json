@@ -1,6 +1,6 @@
 {
     "C_Cpp.default.compilerPath": "cl.exe",
-    "cmake.sourceDirectory": "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-main"
+    "cmake.sourceDirectory": "C:/Users/oflick/HBK/Team DAQ - Oliver-Flick/241106_Bachelor/Bachelor_Arbeit/Workspace/hbk-opendaq-modules-feature-trigger_module"
 
  /*   
 "cmake.generator": "Ninja",

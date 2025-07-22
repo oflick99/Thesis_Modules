@@ -93,7 +93,7 @@ private:
     {
         // Create domain signal with descriptor
         auto domainSignalDescriptorBuilder = DataDescriptorBuilder();
-        domainSignalDescriptorBuilder.setUnit(Unit("s", -1, "seconds", "Time"));
+        domainSignalDescriptorBuilder.setUnit(Unit("s", -1, "seconds", "time"));
         domainSignalDescriptorBuilder.setSampleType(SampleType::Int64);
         domainSignalDescriptorBuilder.setRule(m_rule);
         domainSignalDescriptorBuilder.setOrigin("1970");
@@ -175,6 +175,7 @@ void checkReceivedPacketEqualExpected(const daq::DataPacketPtr& receivedPacket, 
     {
         ASSERT_FLOAT_EQ(data[i], expectedValuePacket[i]);
     }
+    
 }
 
 void checkReceivedTriggerPacketEqualExpected(const daq::DataPacketPtr& receivedPacket, uint8_t active, int64_t domainCount)

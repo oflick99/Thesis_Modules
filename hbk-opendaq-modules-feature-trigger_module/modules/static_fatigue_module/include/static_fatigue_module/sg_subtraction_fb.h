@@ -22,20 +22,20 @@
 
 #pragma once
 #include "static_fatigue_module/common.h"
-//#include <opendaq/function_block_ptr.h>
-//#include <opendaq/function_block_type_factory.h>
 #include <opendaq/function_block_impl.h>
-//#include <opendaq/signal_config_ptr.h>
 #include <opendaq/event_packet_ptr.h>
 #include <opendaq/data_packet_ptr.h>
 #include <opendaq/multi_reader_ptr.h>
+#include <opendaq/signal_config_ptr.h>
 
 BEGIN_NAMESPACE_STATIC_FATIGUE_MODULE
+
+static const char STATIC_FATIGUE_MODULE_SG_SUBTRACTION_STR[] = "HbkSgSubtractionFb";
 
 class SgSubtractionFbImpl final : public FunctionBlock
 {
 public:
-    explicit SgSubtractionFbImpl(const FunctionBlockTypePtr& type, const ContextPtr& ctx, const ComponentPtr& parent, const StringPtr& localId);
+    explicit SgSubtractionFbImpl(const ContextPtr& ctx, const ComponentPtr& parent, const StringPtr& localId, const PropertyObjectPtr& config);
     ~SgSubtractionFbImpl() override = default;
 
     static FunctionBlockTypePtr CreateType();
@@ -44,38 +44,41 @@ public:
     static void getDataDescriptors(const EventPacketPtr& eventPacket, DataDescriptorPtr& valueDesc, DataDescriptorPtr& domainDesc);
     static bool getDataDescriptor(const EventPacketPtr& eventPacket, DataDescriptorPtr& valueDesc);
     static bool getDomainDescriptor(const EventPacketPtr& eventPacket, DataDescriptorPtr& domainDesc);
+    
 private:
-     InputPortPtr voltageInputPort;
-    InputPortPtr currentInputPort;
+    // Input ports
+    InputPortPtr measuringDmsInputPort;
+    InputPortPtr dummyDmsInputPort;
 
-    DataDescriptorPtr voltageDescriptor;
-    DataDescriptorPtr currentDescriptor;
+    // Data descriptors
+    DataDescriptorPtr measuringDmsDescriptor;
+    DataDescriptorPtr dummyDmsDescriptor;
     DataDescriptorPtr domainDescriptor;
 
-    DataDescriptorPtr powerDataDescriptor;
-    DataDescriptorPtr powerDomainDataDescriptor;
+    DataDescriptorPtr compensatedDataDescriptor;
+    DataDescriptorPtr compensatedDomainDataDescriptor;
 
-    SampleType voltageSampleType;
-    SampleType currentSampleType;
+    // Output signals
+    SignalConfigPtr compensatedSignal;
+    SignalConfigPtr compensatedDomainSignal;
 
-    SignalConfigPtr powerSignal;
-    SignalConfigPtr powerDomainSignal;
-
-    Float voltageScale;
-    Float voltageOffset;
-    Float currentScale;
-    Float currentOffset;
-    Float powerHighValue;
-    Float powerLowValue;
+    // Properties
+    Float measuringDmsScale;
+    Float measuringDmsOffset;
+    Float dummyDmsScale;
+    Float dummyDmsOffset;
+    Float compensatedHighValue;
+    Float compensatedLowValue;
     Bool useCustomOutputRange;
     std::chrono::milliseconds tickOffsetToleranceUs;
 
     MultiReaderPtr reader;
 
-      void createInputPorts();
+    // Methods
+    void createInputPorts();
     void createReader();
     void createSignals();
-    static RangePtr getValueRange(const DataDescriptorPtr& voltageDataDescriptor, const DataDescriptorPtr& currentDataDescriptor);
+    static RangePtr getValueRange(const DataDescriptorPtr& measuringDescriptor, const DataDescriptorPtr& dummyDescriptor);
     void onDataReceived();
 
     void checkPortConnections() const;
@@ -83,8 +86,8 @@ private:
     void onDisconnected(const InputPortPtr& inputPort) override;
 
     void configure(const DataDescriptorPtr& domainDescriptor,
-                   const DataDescriptorPtr& voltageDescriptor,
-                   const DataDescriptorPtr& currentDescriptor);
+                   const DataDescriptorPtr& measuringDescriptor,
+                   const DataDescriptorPtr& dummyDescriptor);
 
     void initProperties();
     void propertyChanged(bool configure);

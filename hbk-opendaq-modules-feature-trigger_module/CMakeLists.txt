@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.24)
 
 project(hbk-opendaq-modules VERSION 0.0.1 LANGUAGES C CXX)
 
-# Project options
+# Project options.
 option(HBK_OPENDAQ_ENABLE_ADVANCED_RECORDER "Build the advanced recorder module"    ON)
 option(HBK_OPENDAQ_ENABLE_STATIC_FATIGUE    "Build the static and fatigue module"   ON)
 option(HBK_OPENDAQ_ENABLE_CAMERA_DEVICE     "Build the camera device module"        OFF)

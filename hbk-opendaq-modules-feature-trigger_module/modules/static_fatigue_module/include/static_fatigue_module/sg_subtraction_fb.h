@@ -30,27 +30,78 @@
 
 BEGIN_NAMESPACE_STATIC_FATIGUE_MODULE
 
-static const char STATIC_FATIGUE_MODULE_SG_SUBTRACTION_STR[] = "HbkSgSubtractionFb";
+// Identifier string for the SG subtraction function block
+static const char STATIC_FATIGUE_MODULE_SG_SUBTRACTION_STR[] = "RefFBModuleSgSubtraction";
+
+/**
+ * @brief Function block for strain gauge temperature compensation using a dummy-SG.
+ *
+ * This block subtracts the signal of a dummy strain gauge
+ * from a measuring strain gauge signal. The result is a compensated output signal.
+ */
 
 class SgSubtractionFbImpl final : public FunctionBlock
 {
 public:
-    explicit SgSubtractionFbImpl(const ContextPtr& ctx, const ComponentPtr& parent, const StringPtr& localId, const PropertyObjectPtr& config);
+    /**
+     * @brief Constructs the SG subtraction function block.
+     *
+     * @param ctx The DAQ context.
+     * @param parent The parent component.
+     * @param localId The local identifier of the function block.
+     * @param config Configuration properties for the function block.
+     */
+    explicit SgSubtractionFbImpl(const ContextPtr &ctx, const ComponentPtr &parent, const StringPtr &localId, const PropertyObjectPtr &config);
     ~SgSubtractionFbImpl() override = default;
 
+    /**
+     * @brief Creates the function block type descriptor.
+     *
+     * @return A shared pointer to the function block type.
+     */
     static FunctionBlockTypePtr CreateType();
 
-    static bool descriptorNotNull(const DataDescriptorPtr& descriptor);
-    static void getDataDescriptors(const EventPacketPtr& eventPacket, DataDescriptorPtr& valueDesc, DataDescriptorPtr& domainDesc);
-    static bool getDataDescriptor(const EventPacketPtr& eventPacket, DataDescriptorPtr& valueDesc);
-    static bool getDomainDescriptor(const EventPacketPtr& eventPacket, DataDescriptorPtr& domainDesc);
-    
+    /**
+     * @brief Checks if a data descriptor is not null.
+     *
+     * @param descriptor The data descriptor to check.
+     * @return True if the descriptor is valid, false otherwise.
+     */
+    static bool descriptorNotNull(const DataDescriptorPtr &descriptor);
+
+    /**
+     * @brief Extracts value and domain descriptors from an event packet.
+     *
+     * @param eventPacket The event packet.
+     * @param valueDesc Output: The value descriptor.
+     * @param domainDesc Output: The domain descriptor.
+     */
+    static void getDataDescriptors(const EventPacketPtr &eventPacket, DataDescriptorPtr &valueDesc, DataDescriptorPtr &domainDesc);
+
+    /**
+     * @brief Extracts the value descriptor from an event packet.
+     *
+     * @param eventPacket The event packet.
+     * @param valueDesc Output: The value descriptor.
+     * @return True if successful, false otherwise.
+     */
+    static bool getDataDescriptor(const EventPacketPtr &eventPacket, DataDescriptorPtr &valueDesc);
+
+    /**
+     * @brief Extracts the domain descriptor from an event packet.
+     *
+     * @param eventPacket The event packet.
+     * @param domainDesc Output: The domain descriptor.
+     * @return True if successful, false otherwise.
+     */
+    static bool getDomainDescriptor(const EventPacketPtr &eventPacket, DataDescriptorPtr &domainDesc);
+
 private:
-    // Input ports
+    // Input ports for measuring and dummy strain gauges
     InputPortPtr measuringDmsInputPort;
     InputPortPtr dummyDmsInputPort;
 
-    // Data descriptors
+    // Data descriptors for input and output signals
     DataDescriptorPtr measuringDmsDescriptor;
     DataDescriptorPtr dummyDmsDescriptor;
     DataDescriptorPtr domainDescriptor;
@@ -58,11 +109,11 @@ private:
     DataDescriptorPtr compensatedDataDescriptor;
     DataDescriptorPtr compensatedDomainDataDescriptor;
 
-    // Output signals
+    // Output signals for compensated values
     SignalConfigPtr compensatedSignal;
     SignalConfigPtr compensatedDomainSignal;
 
-    // Properties
+    // Configuration properties
     Float measuringDmsScale;
     Float measuringDmsOffset;
     Float dummyDmsScale;
@@ -72,25 +123,83 @@ private:
     Bool useCustomOutputRange;
     std::chrono::milliseconds tickOffsetToleranceUs;
 
+    // Reader for synchronized input data
     MultiReaderPtr reader;
 
-    // Methods
+    /**
+     * @brief Initializes the input ports.
+     */
     void createInputPorts();
+
+    /**
+     * @brief Initializes the multi-reader for synchronized data access.
+     */
     void createReader();
+
+    /**
+     * @brief Initializes the output signals.
+     */
     void createSignals();
-    static RangePtr getValueRange(const DataDescriptorPtr& measuringDescriptor, const DataDescriptorPtr& dummyDescriptor);
+
+    /**
+     * @brief Computes the output value range based on input descriptors.
+     *
+     * @param measuringDescriptor Descriptor of the measuring SG.
+     * @param dummyDescriptor Descriptor of the dummy SG.
+     * @return A shared pointer to the resulting value range.
+     */
+    static RangePtr getValueRange(const DataDescriptorPtr &measuringDescriptor, const DataDescriptorPtr &dummyDescriptor);
+
+    /**
+     * @brief Callback for processing incoming data.
+     */
     void onDataReceived();
 
+    /**
+     * @brief Validates that all required ports are connected.
+     */
     void checkPortConnections() const;
-    void onConnected(const InputPortPtr& inputPort) override;
-    void onDisconnected(const InputPortPtr& inputPort) override;
 
-    void configure(const DataDescriptorPtr& domainDescriptor,
-                   const DataDescriptorPtr& measuringDescriptor,
-                   const DataDescriptorPtr& dummyDescriptor);
+    /**
+     * @brief Called when an input port is connected.
+     *
+     * @param inputPort The connected input port.
+     */
+    void onConnected(const InputPortPtr &inputPort) override;
 
+    /**
+     * @brief Called when an input port is disconnected.
+     *
+     * @param inputPort The disconnected input port.
+     */
+    void onDisconnected(const InputPortPtr &inputPort) override;
+
+    /**
+     * @brief Configures the function block based on input descriptors.
+     *
+     * @param domainDescriptor The domain descriptor.
+     * @param measuringDescriptor The measuring SG descriptor.
+     * @param dummyDescriptor The dummy SG descriptor.
+     */
+    void configure(const DataDescriptorPtr &domainDescriptor,
+                   const DataDescriptorPtr &measuringDescriptor,
+                   const DataDescriptorPtr &dummyDescriptor);
+
+    /**
+     * @brief Initializes the configuration properties.
+     */
     void initProperties();
+
+    /**
+     * @brief Called when a property changes.
+     *
+     * @param configure Whether to reconfigure the block.
+     */
     void propertyChanged(bool configure);
+
+    /**
+     * @brief Reads and applies the current property values.
+     */
     void readProperties();
 };
 

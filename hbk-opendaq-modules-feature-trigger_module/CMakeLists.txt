@@ -3,9 +3,10 @@ cmake_minimum_required(VERSION 3.24)
 project(hbk-opendaq-modules VERSION 0.0.1 LANGUAGES C CXX)
 
 
-# Project options
+# Project options.
 option(HBK_OPENDAQ_ENABLE_ADVANCED_RECORDER "Build the advanced recorder module"    ON)
 option(HBK_OPENDAQ_ENABLE_STATIC_FATIGUE    "Build the static and fatigue module"   ON)
+option(HBK_OPENDAQ_ENABLE_BASIC_MATH        "Build the basic math module"           ON)
 option(HBK_OPENDAQ_ENABLE_CAMERA_DEVICE     "Build the camera device module"        OFF)
 option(HBK_OPENDAQ_ENABLE_MTIG710_DEVICE    "Build the MTi-G-710 device module"     ON)
 option(HBK_OPENDAQ_ENABLE_PLAYBACK_DEVICE   "Build the playback device module"      ON)
@@ -44,6 +45,10 @@ endif()
 
 if(HBK_OPENDAQ_ENABLE_STATIC_FATIGUE)
     add_subdirectory("modules/static_fatigue_module")
+endif()
+
+if(HBK_OPENDAQ_ENABLE_BASIC_MATH)
+    add_subdirectory("modules/basic_math_module")
 endif()
 
 if(HBK_OPENDAQ_ENABLE_APPS)
